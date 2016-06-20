@@ -94,4 +94,6 @@ so we need something like
 
 # Config server
 
+It will store configuration in some git repository and will access it as needed
+
 

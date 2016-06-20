@@ -21,3 +21,7 @@ simple-rest-crud/.idea/
 configurableapp/.idea/
 configurableapp/.mvn/
 configurableapp/target/
+gitconfigserver/.idea/
+gitconfigserver/target/
+springclientconfiggit/.idea/
+springclientconfiggit/target/
