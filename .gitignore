@@ -25,3 +25,8 @@ gitconfigserver/.idea/
 gitconfigserver/target/
 springclientconfiggit/.idea/
 springclientconfiggit/target/
+eurekaserverdemo/target/
+eurekaserverdemo/.mvn/
+eurekaserverdemo/.idea/
+
+
