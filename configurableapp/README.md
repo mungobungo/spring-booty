@@ -14,7 +14,7 @@ Some nice endpoints :
 
 and actuator's endpoints, working from the scratch
 
-```json
+```
  "self": {
       "href": "http://localhost:9090/actuator"
     },
@@ -60,3 +60,15 @@ And all these nice actuator endpoints are accessible by just simple pom referenc
             <artifactId>spring-boot-actuator</artifactId>
   </dependency>
 ```
+
+Just for sake of documentation, this is the order of search for configuration variables in Spring
+
+1. Command Line Arguments
+1. JNDI
+1. Java system properties
+1. OS Env variables
+1. Properites files
+1. @PropertySource
+1. Defaults
+
+So if you want to do some debugging, you can just override it with command line parameter or ENV variable.
