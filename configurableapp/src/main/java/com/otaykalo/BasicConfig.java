@@ -1,10 +1,9 @@
 package com.otaykalo;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.stereotype.*;
-import org.springframework.beans.factory.annotation.*;
 /**
  * Created by otaykalo on 6/20/2016.
  */
@@ -12,11 +11,11 @@ import org.springframework.beans.factory.annotation.*;
 @RestController
 public class BasicConfig {
 
-    @Value("${greeting}")
+    @Value("${greeting.val}")
     private String greeting;
 
     @RequestMapping("/")
     public String home(){
-        return "${greeting} World!";
+        return  greeting + " World!";
     }
 }
