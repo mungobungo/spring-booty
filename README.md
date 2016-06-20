@@ -20,3 +20,21 @@ class ThisWillActuallyRun {
 	}
 }
 ```
+
+
+No microservice is an island.
+We need composition of something.
+
+challanges of distributed systems
+# Configuration management
+# Service registration and discovery
+# Routing and load balancing
+# Fault tolerance (Circuit breakers!)
+# Monitoring
+# Concurrent API aggregation and Transformation
+
+
+Spring environment
+# Properties
+# Profiles
+
