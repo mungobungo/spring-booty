@@ -29,5 +29,6 @@ springclientconfiggit/target/
 eurekaserverdemo/target/
 eurekaserverdemo/.mvn/
 eurekaserverdemo/.idea/
-
+springeurekaclientdemo/target/
+springeurekaclientdemo/.idea/
 
