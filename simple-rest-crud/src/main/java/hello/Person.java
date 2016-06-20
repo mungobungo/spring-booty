@@ -1,15 +1,19 @@
 package hello;
 
+import org.hibernate.annotations.GenericGenerator;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-public class Persion{
-	@Id;
-	@GeneratedValue(strategy = GenerationType.AUTO)
-	private long id;
+public class Person{
+	
+	@Id
+	@GeneratedValue(generator="system-uuid")
+	@GenericGenerator(name="system-uuid", strategy = "uuid2")
+	private String id;
 
 	private String firstName;
 	private String lastName;
@@ -27,6 +31,6 @@ public class Persion{
 		this.lastName = lastName;
 	}
 
-	
+
 
 }
