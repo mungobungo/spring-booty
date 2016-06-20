@@ -11,7 +11,7 @@ Adrian Cockroft
 
 minimal microservice in java
 
-```
+```java
 @RestController
 class ThisWillActuallyRun {
 	@RequestMapping("/")
