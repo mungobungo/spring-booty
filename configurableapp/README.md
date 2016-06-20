@@ -79,3 +79,19 @@ Or using IDEA configuration.
 ![IDEA spring profile configuration](./img/idea_configuration.png)
 
 Using different profiles, you can use them to differentiate dev, test, acceptance and prod environments.
+
+
+But in distirubuted environment its not that good.
+Yes, we can change configuration and profiles using swithches.
+But what if we want to change the configuration within profile?
+Then we'll need to redeploy the application. And that is not really nice.
+And if we'ew talking about microservices, we're talking about several different instances of application. So redeployment becomes even more tricky.
+
+It would be nice to be able to change configuration simultaniously and consistantly without redeploying.
+And also without restart.
+
+so we need something like
+
+# Config server
+
+
