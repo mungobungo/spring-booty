@@ -1,0 +1,6 @@
+
+greeting:
+  val: Cruel cruel important
+
+server:
+  port: 9090
