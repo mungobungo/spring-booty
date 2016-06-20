@@ -16,6 +16,7 @@
 hs_err_pid*
 
 # omit all generated classes
+.idea/
 simple-rest-crud/target/
 simple-rest-crud/.idea/
 configurableapp/.idea/
