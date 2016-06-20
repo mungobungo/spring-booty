@@ -1,3 +1,7 @@
+# anything that is vim backup
+*~
+
+# java classes
 *.class
 
 # Mobile Tools for Java (J2ME)
