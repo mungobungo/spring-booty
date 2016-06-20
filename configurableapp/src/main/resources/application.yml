@@ -4,3 +4,10 @@ greeting:
 
 server:
   port: 9090
+
+---
+spring:
+  profiles: spanish
+
+greeting:
+  val: Hola!

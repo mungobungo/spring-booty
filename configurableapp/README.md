@@ -71,4 +71,11 @@ Just for sake of documentation, this is the order of search for configuration va
 1. @PropertySource
 1. Defaults
 
-So if you want to do some debugging, you can just override it with command line parameter or ENV variable.
+So if you want to do some debugging, you can just override it with command line parameter.
+
+Or ENV variable SPRING_PROFILES_ACTIVE.
+
+Or using IDEA configuration.
+![IDEA spring profile configuration](./img/idea_configuration.png)
+
+Using different profiles, you can use them to differentiate dev, test, acceptance and prod environments.
